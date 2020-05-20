@@ -1,0 +1,17 @@
+body {
+    background-color: #688491;
+}
+h1{
+    border-style: dotted;
+    border-radius: 1ch;
+    color: rgb(233, 200, 160);
+}
+h3{color: rgb(233, 200, 160)}
+p {
+    color: #fafafa;
+    background-color:#688491;
+    }
+body > img { border-radius: 60%;}
+ul {list-style-type: circle ;}
+a:hover {color: rgb(236, 9, 9);}
+a:active{color: rgb(15, 29, 224);}
