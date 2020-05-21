@@ -8,10 +8,12 @@ h1{
 }
 h3{color: rgb(233, 200, 160)}
 p {
+    font-size: 11pt;
     color: #fafafa;
     background-color:#688491;
     }
-body > img { border-radius: 60%;}
+body > img { vertical-align: middle;
+    border-radius: 60%;}
 ul {list-style-type: circle ;}
 a:hover {color: rgb(236, 9, 9);}
 a:active{color: rgb(15, 29, 224);}
