@@ -17,3 +17,5 @@ body > img { vertical-align: middle;
 ul {list-style-type: circle ;}
 a:hover {color: rgb(236, 9, 9);}
 a:active{color: rgb(15, 29, 224);}
+q{quotes: none;
+color: burlywood}
