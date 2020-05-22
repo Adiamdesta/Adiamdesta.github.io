@@ -16,10 +16,10 @@ h2 { background-color: #f0f0f0;
     font-family: Lucida Sans Unicode, Helvetica, Arial,sans-serif;
     font-size: 22pt;
 } 
-pre {
-    text-align-last: right;
-     float:left; 
+p.copy {
+    text-align: right;
     font-family: monospace;
+    float:left;
    }
     
 h3 {
