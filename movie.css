@@ -69,7 +69,6 @@ h1 {
    padding-right:2% ;
     column-count: 2;
     column-gap: 2%;
-    column-width: 47%;
     column-fill: balance;
     padding-left: 2%;
     overflow: auto;

@@ -1,0 +1,40 @@
+body {
+    background-color: khaki;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    color: brown;
+}
+
+img {
+    vertical-align: text-bottom;
+    width: 22px;
+    height: 22px;
+}
+
+.personal-info {
+    padding: 12px 12px 12px 12px;
+    width:750px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px dashed lightgoldenrodyellow;
+    border-radius: 12px;
+    background-color: lightyellow;
+}
+
+input[type=text] {
+    display: block;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;    
+}
+
+input[type=text]:focus {
+    width: 100%;
+  }
+.agreement {
+    max-height: 150px;
+    border: 3px solid salmon;
+    overflow: scroll;
+}
