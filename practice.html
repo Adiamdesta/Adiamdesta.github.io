@@ -3,23 +3,33 @@
 <head>
 <title>Page Title</title>
 <style>
-   body { font-family: sans-serif; background-color: }
-p { color: red; }
-h2 { font-weight: bold; text-align: center; } 
+    div {
+        border: 2px solid black;
+    }
+    #one {
+        position: relative;
+        top:100px;
+        
+    }
+    #two {
+        position:relative;
+       right: 0px;
+       bottom: 50px;
+    }
+    #three {position: absolute;
+    bottom: 50px;
+    right: 50px;}
 </style>
 </head>
 <body>
-<p>this paragraph contains link to <a href="#" >previous</a>slide</p>
-
-    <form action="/login.html" method="post">
-        <lable>username: </lable>
-        <input type="text" name="username"><br>
-        <lable>password: </lable>
-        <input type="text" name="password"> <br>
-        <input type="submit">
-
-        </form>
-
+<div id="one"> 
+    div 1
+    <div id="two">
+        div2
+        <div id="three">
+            div 3
+        </div>
+    </div>
 </div>
 </body>
 </html>
