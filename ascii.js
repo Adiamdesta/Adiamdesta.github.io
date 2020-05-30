@@ -1,24 +1,18 @@
 "use strict";
 let delay = 250;
-let startElem;
-let stopElem;
-let animElem;
-let seleElem;
-let speedElem;
-let displayElem;
-let sizeElem;
 let i = 0;
 let ondisplaytext;
 let timer = null;
-
+let seleElem;
 
 window.onload = function () {
-    startElem = document.getElementById('starter');
-    animElem = document.getElementById("anim");
-    displayElem = document.getElementById('display');
-    stopElem = document.getElementById('stoper');
-    sizeElem = document.getElementById("sizes");
-    speedElem = document.getElementById('speedo');
+   let startElem = document.getElementById('starter');
+   let animElem = document.getElementById("anim");
+   let displayElem = document.getElementById('display');
+   let stopElem = document.getElementById('stoper');
+   let sizeElem = document.getElementById("sizes");
+   let speedElem = document.getElementById('speedo');
+
     function displayAnimation() {
         seleElem = animElem.options[animElem.selectedIndex].text;
         displayElem.value = ANIMATIONS[seleElem];
