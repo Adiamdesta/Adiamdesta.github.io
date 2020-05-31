@@ -1,0 +1,24 @@
+body {
+    background-color: burlywood;
+}
+lable {
+    margin-bottom: 10pt;
+    display: block;
+}
+h2 {
+    text-align: center;
+    border: 3px solid snow;
+}
+.wraper {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    text-align: center;
+    
+}
+textarea {
+     margin-top: 10px;
+    display: block;
+}
