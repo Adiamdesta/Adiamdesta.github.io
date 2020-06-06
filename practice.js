@@ -15,3 +15,12 @@ function makeSizer(size) {
     document.getElementById('size-12').onclick = makeSizer(12);
     // document.getElementById('size-14').onclick = makeSizer(14);
     // document.getElementById('size-18').onclick = makeSizer(18);}
+  let stooges = []; // stooges.length is 0
+stooges[0] = "Larry"; // stooges.length is 1
+stooges[1] = "Moe"; // stooges.length is 2
+stooges[4] = "Curly"; // stooges.length is 5
+stooges[4] = "Shemp"; 
+for(const a of stooges){
+    console.log(a);
+}
+
